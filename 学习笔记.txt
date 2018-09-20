@@ -1,0 +1,29 @@
+git push 推送
+git commit 提交
+git clone 项目地址 克隆(拉取项目)
+git push -u origin master 加上master权限
+git pull 更新
+git status git查询
+git init 初始化
+git add --all               git add "src/c3p0.properties"
+git commit -m "注释" 提交代码必须加注释
+git remote add origin https://git.oschina.net/xiaoma123456/lk.git (初始化项目时使用)
+git push -u origin master
+1.下载项目 
+git clone 链接地址
+2.查看分支
+git branch -a
+3.切换分支
+git checkout 分支名称
+git config credential.helper store 保存密码
+git merge --no-ff -m "merge orgin feature rcdd" develop --合并分支
+Esc   :wq--保存数据  然后敲回车
+git reset --hard FETCH_HEAD 重置
+git branch -d 分支名称--删除分支
+git fetch -p 同步远程
+
+
+git config --global alias.diffall "/F/meld/git-diffall"
+git config --global mergetool.meld.path "/F/meld/Meld/Meld.exe"
+git config --global mergetool.keepBackup false 
+git mergetool--处理冲突
